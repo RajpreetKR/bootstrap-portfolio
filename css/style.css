@@ -1,3 +1,8 @@
-/* Navbar CSS */
+/* main colours */
+:root {
+    --primary-color: rgb(146, 204, 206);
+    --secondary-color: rgb(48, 51, 59);
+    --tertiary-color: rgb(68, 88, 119);
+}
 
 
