@@ -1,8 +1,37 @@
-/* main colours */
+/* Main Colours */
 :root {
     --primary-color: rgb(146, 204, 206);
     --secondary-color: rgb(48, 51, 59);
     --tertiary-color: rgb(68, 88, 119);
 }
 
+/* Universial CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header/Name CSS */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 10px 0px 15px 0px; /* pads the top by 10 pixels and the bottom by 15 pixels */
+}
+
+.name {
+    display: flex;
+    font-size: 36px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 0px 15px 5px 25px;
+}
+
+/* Nav CSS */
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
 
