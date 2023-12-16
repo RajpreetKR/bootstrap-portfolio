@@ -12,6 +12,12 @@
     padding: 0;
 }
 
+/* Body CSS */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(238, 238, 239);
+}
+
 /* Header/Name CSS */
 header {
     display: flex;
@@ -22,7 +28,8 @@ header {
 }
 
 .name {
-    display: flex;
+    display: inline;
+    align-items: center;
     font-size: 36px;
     color: var(--secondary-color);
     background-color: var(--primary-color);
@@ -35,3 +42,12 @@ header {
     justify-content: flex-end;
 }
 
+.nav-link {
+    display: inline;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 24px;
+    border-bottom: 5px solid;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 15px 0px 15px;
+}
