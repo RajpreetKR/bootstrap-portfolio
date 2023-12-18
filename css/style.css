@@ -49,5 +49,35 @@ header {
     font-size: 24px;
     border-bottom: 5px solid;
     padding: 0px 10px 0px 10px;
-    margin: 0px 15px 0px 15px;
+    margin: 0px 15px 0px 15px; /* adding margins here so that the text and bottom border are nicely spaced as i couldn't get it to do so with justify content or flex */
+}
+
+/* Jumbletron CSS */
+/* this section is basically the same aside from some adjustments to make this section look better than in the previous challenge without the use of bootstrap */
+#jumbletron {
+    background-image: url(../images/02-hero-bg.jpg);
+    background-size: cover;
+    height: 250px;
+    position: relative;
+}
+
+.subtitle {
+    position: absolute;
+    right: 35px;
+    bottom: 25px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 5px 10px 5px 10px;
+}
+
+/* Work CSS */
+#work {
+
+}
+
+/* Card CSS */
+.card {
+    
 }
