@@ -2,7 +2,6 @@
 :root {
     --primary-color: rgb(146, 204, 206);
     --secondary-color: rgb(48, 51, 59);
-    --tertiary-color: rgb(68, 88, 119);
 }
 
 /* Universial CSS */
@@ -10,6 +9,45 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* Titles CSS*/
+.section-title:before {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: var(--primary-color);
+}
+
+.section-title {
+    position: relative;
+    max-width: 500px;
+    margin: 15px auto;
+    font-size: 28px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.section-title:after {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: var(--primary-color);
+}
+
+/* Card CSS */
+.card-img-top {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
 }
 
 /* Jumbletron CSS */
@@ -23,12 +61,12 @@
 
 .subtitle {
     position: absolute;
-    right: 35px;
-    bottom: 25px;
-    font-size: 28px;
+    right: 25px;
+    bottom: 15px;
+    font-size: 18px;
     font-weight: bolder;
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    padding: 5px 10px 5px 10px;
+    padding: 2px 10px 2px 10px;
 }
 
