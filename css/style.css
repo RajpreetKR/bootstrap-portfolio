@@ -45,12 +45,12 @@
 
 /* Card CSS */
 .card {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    margin: 0 20px 0 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    margin: 0;
 }
 
 .card:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 .card-img-top {
@@ -72,20 +72,33 @@
     position: absolute;
     right: 25px;
     bottom: 15px;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: bolder;
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    padding: 2px 10px 2px 10px;
+    padding: 2px 10px 5px 10px;
 }
 
 /* Work CSS */
-#work {
-    display: inline;
+.container {
+    max-width: 98%;
+    padding: 0;
 }
 
-/* Skills CSS */
-ul {
-    display: flex;
-    margin: 0 20px 0 20px;
+/* About/Skills CSS */
+#about {
+    margin: 20px;
+}
+
+.list-group-item.active {
+    color: var(--primary-color);
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* Footer CSS */
+footer li:hover {
+    background-color: var(--primary-color);
+    border-radius: 5px;
 }
